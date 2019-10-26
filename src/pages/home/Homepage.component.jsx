@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import './homepage.styles.scss';
 import Directory from "../../components/directory/Directory";
+import {HomePage} from "./homepage.styles";
+
 class HomepageComponent extends Component {
     render() {
         return (
-            <div className="homepage">
+            <HomePage>
                 <Directory/>
-            </div>
+            </HomePage>
         );
     }
 }
